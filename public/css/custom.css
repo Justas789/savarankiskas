@@ -1,0 +1,187 @@
+.top{
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 25px;
+    background-color: #00AB92;
+}
+.top select, .top input{
+    width: 150px;
+    height: 25px;
+    text-align: center;
+}
+div.all{
+    background-color: lightgray;
+    margin-top: 25px;
+    border-radius: 15px;
+    border: 1px gray solid;
+}
+div.info img{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border: black 5px solid;
+    border-radius: 55px;
+}
+div.info p{
+    margin-top: 15px;
+}
+div.rating{
+    position: relative;
+}
+div.edit{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.delete a{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+}
+a.delete, a.edit{
+    margin-right: 25px;
+}
+a i{
+    border: 1px black solid;
+    padding: 5px;
+    border-radius: 12px;
+    background-color: lightgray;
+}
+.delete a i:hover{
+    background-color: black;
+    transition: 0.5s;
+    font-size: 35px;
+    color: white;
+    font-size: 39px;
+}
+.like a i{
+    text-decoration: none;
+    color: black;
+}
+.like{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 35px;
+    height: 100px;
+    margin-left: 150px;
+    align-items: center;
+}
+.like i{
+    margin-left: 15px;
+    font-size: 45px;
+}
+.like p{
+    font-size: 25px;
+    margin-top: 15px;
+}
+.like i:hover{
+    color: red;
+    transition: 0.5s;
+}
+.like button{
+    background: none;
+    border: none;
+}
+.rating{
+    display: flex;
+    flex-direction: column;
+}
+.like{
+    display: flex;
+    flex-direction: row;
+}
+.likedislike{
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-toggle::after{
+    display: none !important;
+}
+.dropdown-toggle{
+    background: none;
+    border: none;
+}
+.dropdown-toggle i{
+    color: black;
+    font-size: 35px;
+}
+.dropdown-toggle:hover{
+    background-color: white;
+}
+.settings{
+    display: flex;
+    flex-direction: row;
+}
+.dropdown-menu li{
+    width: 250px;
+}
+.dropdown-menu li p{
+    padding-left: 16px;
+    color: gray;
+}
+div.stars i{
+    font-size: 20px;
+    margin-left: 2px;
+    color: black;
+}
+div.stars i:hover{
+    color: black;
+}
+.dropdown button i:hover{
+    transition: 0.4s;
+    color: gray;
+}
+form.paieska{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.results-img img{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border: black 5px solid;
+    border-radius: 55px;
+}
+.results{
+    margin-top: 25px;
+}
+.results-info{
+    background-color: lightgray;
+    height: 250px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+.results-info p{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+div.nav a.back{
+    background-color: lightgray;
+    width: 20%;
+    margin: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+div.nav a.back:hover{
+    background-color: gray;
+    color: white;
+    transition: 0.5s;
+}
